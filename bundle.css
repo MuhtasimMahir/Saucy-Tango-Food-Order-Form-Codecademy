@@ -1,0 +1,90 @@
+._Header_module__header {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+  }._FoodOrderForm__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+._FoodOrderForm__label {
+  margin-bottom: 5px;
+}
+
+._FoodOrderForm__input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+._FoodOrderForm__input:focus {
+  outline: none;
+  border-color: #008080;
+}
+
+._FoodOrderForm__button[type="submit"] {
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+._FoodOrderForm__button[type="submit"]:hover {
+  background-color: #006666;
+}._FoodItem_module__card {
+    display: flex;
+    font-family: Tahoma, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 32px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  ._FoodItem_module__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 16px;
+  }
+  
+  ._FoodItem_module__imageWrapper {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+  }
+  
+  ._FoodItem_module__details {
+    padding: 16px;
+    text-align: center;
+    font-weight: light;
+  }
+  
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #2c2c2c;
+  }
+  
+  ._FoodItem_module__addButton {
+    border: none;
+    background-color: #f5f5f5;
+    color: #2c2c2c;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
